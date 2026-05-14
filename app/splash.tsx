@@ -22,7 +22,7 @@ export default function SplashScreen() {
       <StatusBar hidden />
 
       <Image
-        source={require("../assets/splash.png")}
+        source={require("../assets/splash-icon.png")}
         style={styles.image}
         resizeMode="cover"
       />
