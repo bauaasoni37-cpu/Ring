@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "Ring",
+    "slug": "Ring",
+
+    "version": "1.0.0",
+
+    "orientation": "portrait",
+
+    "icon": "./assets/images/icon.png",
+
+    "scheme": "ring",
+
+    "userInterfaceStyle": "automatic",
+
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true,
+
+      "bundleIdentifier": "com.nandu1372.Ring"
+    },
+
+    "android": {
+      "package": "com.nandu1372.Ring",
+
+      "softwareKeyboardLayoutMode": "pan",
+
+      "edgeToEdgeEnabled": true,
+
+      "predictiveBackGestureEnabled": false,
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+
+        "backgroundColor": "#ffffff"
+      }
+    },
+
+    "web": {
+      "output": "static",
+
+      "favicon": "./assets/images/favicon.png"
+    },
+
+    "plugins": [
+      "expo-router",
+
+      [
+        "expo-splash-screen",
+
+        {
+          "image": "./assets/images/splash-icon.png",
+
+          "imageWidth": 220,
+
+          "resizeMode": "contain",
+
+          "backgroundColor": "#ffffff",
+
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+
+      "@react-native-community/datetimepicker"
+    ],
+
+    "experiments": {
+      "typedRoutes": true,
+
+      "reactCompiler": true
+    },
+
+    "extra": {
+      "router": {},
+
+      "eas": {
+        "projectId": "bd248e98-dfc9-4b03-8151-2369d60c574b"
+      }
+    }
+  }
+}
